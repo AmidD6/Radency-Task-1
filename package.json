@@ -1,0 +1,20 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Hometask #1 | JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dmytro Balamut <balamutdmitro0@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmidD6/Radency-Task-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmidD6/Radency-Task-1/issues"
+  },
+  "homepage": "https://github.com/AmidD6/Radency-Task-1#readme"
+}

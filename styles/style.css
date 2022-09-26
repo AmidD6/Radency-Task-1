@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1cm;
+    font-size: 0.9em;
+}
+
+
+.container__table__list {
+    border-collapse: collapse;
+    min-width: 1324px;
+    border-spacing: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container__table__list thead th {
+    background: rgb(110,49,222);    
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.container__table__list th, td {
+    padding: 22px;
+    text-align: left;
+    font-size: 105%;
+    color: #000;
+}
+
+.fa-pen, .fa-circle-down, .fa-trash {
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.fa-pen:hover {
+    color: rgb(239, 207, 0);
+}
+.fa-circle-down:hover {
+    color: rgb(86, 219, 24);
+}
+.fa-trash:hover {
+    color: rgb(255,0,0);
+}
+.container__table__list tr:nth-child(2n) {
+    background-color: #f3f3f9;
+}
+
+.container__table__list th:nth-last-child(-n+3), td:nth-last-child(-n+3) {
+    text-align: center;
+}
+
+
+.container__table__list thead th:first-child {
+    border-radius: 10px 0 0 0;
+    -webkit-border-radius: 10px 0 0 0;
+    -moz-border-radius: 10px 0 0 0;
+    -ms-border-radius: 10px 0 0 0;
+    -o-border-radius: 10px 0 0 0;
+}
+.container__table__list thead th:last-child {
+    border-radius: 0 10px 0 0;
+    -webkit-border-radius: 0 10px 0 0;
+    -moz-border-radius: 0 10px 0 0;
+    -ms-border-radius: 0 10px 0 0;
+    -o-border-radius: 0 10px 0 0;
+}
+
+.create__note {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.create__note__button {
+    position: relative;
+    /* left: 400px; */
+    width: 271px;
+    height: 70px;
+    background-color: #ffc727;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.create__note__button:hover {
+    background-color: #ffbb00;
+}
+
+
