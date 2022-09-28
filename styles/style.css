@@ -18,7 +18,6 @@ body {
     border-collapse: collapse;
     min-width: 1324px;
     border-spacing: 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -39,7 +38,7 @@ body {
     color: #000;
 }
 
-.fa-pen, .fa-circle-down, .fa-trash {
+.fa-solid {
     font-size: 1.4em;
     cursor: pointer;
     transition: 0.2s;
@@ -57,6 +56,19 @@ body {
 .fa-trash:hover {
     color: rgb(255,0,0);
 }
+
+
+.fa-arrows-rotate:hover {
+    color: rgb(239, 207, 0);
+}
+.fa-circle-check:hover {
+    color: rgb(86, 219, 24);
+}
+.fa-circle-xmark:hover {
+    color: rgb(255,0,0);
+}
+
+
 .container__table__list tr:nth-child(2n) {
     background-color: #f3f3f9;
 }
@@ -114,3 +126,51 @@ body {
 }
 
 
+input, select, textarea {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-size: 0.9em;
+    color: #000;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+input[type="text"] {
+    width: 100px;
+    cursor:text;
+}
+
+textarea {
+    cursor:text;
+}
+
+.is_error {
+    /* background-color: red; */
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+}
+
+.fa-arrow-up, .error {
+    animation-duration: 0.5s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes move {
+	0% {
+	    color: #ff0000;
+	}
+	50% {
+		color: #000000;
+	}
+    100% {
+        color: #ff0000;
+    }
+}
